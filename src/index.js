@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import { ContextProvider } from './context';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { ContextProvider } from "./context";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -21,7 +21,6 @@ root.render(
 );
 
 // Ajouter BrowserRouter autour de App / pour englober notre app. ne pas oublier de l'importer en début de fichier.
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
